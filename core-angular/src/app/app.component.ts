@@ -1,13 +1,8 @@
 import { Component } from "@angular/core";
 
 @Component({
-  selector: "my-app",
-  template: `<h1>Core Angular</h1>`,
-  styles: [`
-    h1 {
-      background-color: #FFF;
-      text-align: center;
-    }
-  `],
+  selector: "main-view",
+  templateUrl: "./app.component.html",
+  styleUrls: ["./app.component.css"]
 })
 export class AppComponent {}
